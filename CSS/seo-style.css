@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.seo-head {
+  margin-top: 4rem;
+  display: flex;
+  flex-flow: column;
+  height: 72vh;
+  width: 100%;
+  background-image: url(../Images/seo-bg.jpg) !important;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: black;
+  justify-content: center;
+
+}
+
+.seo-head h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 2px;
+  width: 50%;
+  color: white;
+  text-align: center;
+  background-color: #0000008c;
+}
+
+.seo-head p {
+  font-size: 18px;
+  font-family: ui-monospace;
+  letter-spacing: 2px;
+  width: 50%;
+  text-align: center;
+}
+
+.sec1 {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 4% 0% 1% 0%;
+}
+
+.sec1 h1 {
+  font-size: 48px;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-family: 'Font Awesome 5 Pro';
+}
+
+.sec1 small {
+  font-size: 34px;
+}
+
+.sec1 p {
+  font-size: 18px;
+  text-align: center;
+}
+
+.seo-sec2 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 4%;
+}
+
+.seo-sec2 .lft {
+  width: 48%;
+  height: 100%;
+  float: left;
+}
+
+.seo-sec2 .rgt {
+  width: 40%;
+  height: 70vh;
+  float: right;
+}
+
+.seo-sec2 .rgt h1 {
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  color: #e20200;
+  margin-bottom: 10px;
+}
+
+.seo-sec2 .rgt p {
+  margin-top: 0px;
+  color: #191414;
+  font-size: 18px;
+  letter-spacing: 0px;
+  margin-bottom: 10px;
+  line-height: 1.5em;
+}
+
+.container.seo-sec3 {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding-bottom: 4%;
+  flex-wrap: wrap;
+}
+
+.seo-sec3 h1 {
+  color: #e20200;
+  font-size: 44px;
+  font-weight: bold;
+  margin-top: 20px;
+  font-family: cinzel;
+  text-transform: uppercase;
+  margin-bottom: 2%;
+}
+
+.seo-sec3 p {
+  line-height: 1.5em;
+  letter-spacing: 0px;
+  color: #000000;
+  font-size: 26px;
+  line-height: 32px;
+  display: inline-block;
+  width: 100%;
+  max-width: 720px;
+  letter-spacing: -1px;
+}
+
+.container.card-sec {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-sec .crd {
+  height: 15rem;
+  min-height: 100%;
+  width: 28%;
+  padding: 2%;
+  border: 2px solid lightgray;
+  margin: 1%;
+  border-radius: 14px;
+}
+
+.card-sec .crd h1 {
+  text-align: center;
+  font-size: 24px;
+  font-family: sans-serif;
+  color: #e20200;
+  border-bottom: 1px solid #e20200;
+  padding-bottom: 3%;
+}
+
+.card-sec .crd p {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 22px;
+}
+
+.crd:hover {
+  transition: ease-in .4s;
+  border: 2px solid #e20200;
+}
+
+@media only screen and (max-width: 1000px) {
+  .seo-head h1 {
+    font-size: 1rem;
+    width: 54%;
+  }
+
+  .seo-head p {
+    font-size: 9px;
+    width: 55%;
+    margin-bottom: 12%;
+    letter-spacing: 1px;
+}
+  .sec1 h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+  .sec1 small {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 4%;
+}
+.seo-sec3 h1 {
+  font-size: 32px;
+  margin-top: 44%;
+}
+  .seo-sec2 .lft {
+    width: 100%;
+    text-align: center;
+  }
+  .seo-sec3 p {
+    font-size: 18px;
+  }
+  .seo-sec2 .rgt {
+    width: 100%;
+    text-align: center;
+  }
+
+  .container.seo-sec3 {
+    text-align: center;
+    margin-top: 24%;
+  }
+
+  .card-sec .crd {
+    width: 90%;
+    margin: 2%;
+  }
+
+  .seo-head {
+    height: 40vh;
+    justify-content: flex-end;
+  }
+}

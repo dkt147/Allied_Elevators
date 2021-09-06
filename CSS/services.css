@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+/*Head Programming*/
+.slider {
+    display: flex;
+    margin-top: 4rem;
+    background-image: url(../Images/bg-services.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.slider h1 {
+    font-size: 84px;
+    font-family: serif;
+    text-transform: uppercase;
+    width: 100%;
+    color: ghostwhite;
+    background-color: #00000094;
+    padding: 2% 0% 2% 14%;
+}
+.pr-head {
+    height: 100%;
+    padding-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+.pr-tag {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin: 10px 1px;
+}
+.pr-tag h1 {
+    font-size: 48px;
+    text-align: center;
+    color: #a20200;
+    margin: 2%;
+    font-family: 'Font Awesome 5 Brands';
+    border-bottom: 2px solid #a00200;
+}
+.pr-tag p {
+    margin: 0 0 20px;
+    color: #616161;
+    font-size: 24px;
+    line-height: 1.8;
+    text-align: center;
+    padding: 0% 3%;
+}
+.container.prg {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    background-color: beige;
+    flex-wrap: wrap;
+    padding: 2%;
+    margin-bottom: 3%;
+}
+.prg .lft {
+    width: 46%;
+    padding: 0% 2%;
+    text-align: left;
+    height: 100%;
+    border-right:2px solid black ;
+}
+.prg .rgt {
+    width: 46%;
+    text-align: left;
+    height: 100%;
+    padding: 0% 2%;
+}
+.prg h2 {
+    font-size: 24px;
+    width: 80%;
+    font-family: system-ui;
+}
+.prg p {
+    font-size: 18px;
+}
+blockquote {
+    border-left: 5px solid #a00200;
+    background: #f5f5dc;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    padding: 24px 42px;
+    position: relative;
+    color: #303030;
+}
+blockquote .fa{
+    color: #a00200;
+}
+.btm-sec {
+    background-color: rgb(0 0 0 / 2%);
+    margin-top: 4%;
+}
+.sct1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5rem 0rem 0rem 0rem;
+}
+.sct1 .lft {
+    width: 46%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding: 0px 40px;
+    border-left: 6px solid #a00200;
+}
+.sct1 .rgt {
+    width: 46%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.sct1 .lft h3 {
+    position: relative;
+    font-weight: 500;
+    font-size: 22px;
+    text-transform: uppercase;
+    line-height: 1.3;
+}
+.sct1 .lft p {
+    margin: 0 0 20px;
+    color: #616161;
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: center;
+}
+
+
+
+
+
+.sct2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.sct2 .lft {
+    width: 46%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.sct2 .rgt {
+    width: 46%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 24px;
+    align-self: center;
+    border-RIGHT: 6px solid #a00200;
+}
+.sct2 .rgt h3 {
+    position: relative;
+    font-weight: 500;
+    font-size: 22px;
+    text-transform: uppercase;
+    line-height: 1.3;
+}
+.sct2 .rgt p {
+    margin: 0 0 20px;
+    color: #616161;
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: center;
+}
+.wrp {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+.hed {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: 2% 0% -4% 0%;
+}
+.hed h3 {
+    font-family: 'Font Awesome 5 Brands';
+    font-size: 64px;
+    text-transform: capitalize;
+}
+.hed small {
+    display: inline-block;
+    margin-top: 10px;
+    color: #505050;
+    letter-spacing: 3px;
+    font-size: 28px;
+}
+.our-process-wrap {
+    background: url(../images/ourprocess.png) left top no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 84px 30px;
+}
+.our-process-item {
+    text-align: center;
+    padding: 0 10px;
+    display: flex;
+    width: 24%;
+    flex-flow: column;
+    justify-items: center;
+}
+.our-process-item i {
+    font-size: 32px;
+    display: flex;
+    clear: both;
+    border-radius: 50%;
+    color: #52535c;
+    border:2px solid #b9b3b3;
+    transition: all .33s ease-in-out;
+    text-shadow: none;
+    box-shadow: 0 2px 0 0 rgb(0 0 0 / 2%);
+    height: 120px;
+    width: 120px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+.our-process-item i:hover{
+    color: #e20200;
+    border: 2px solid #e20200;
+    cursor: pointer;
+}
+.our-process-item h4 {
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #171c24;
+    margin: 34px 0 25px;
+}
+.our-process-item p {
+    font-size: 20px!important;
+    color: #8a8a8a;
+    line-height: 1.6;
+    padding: 0 15px;
+    text-align: center;
+    width: 100%;
+    align-self: center;
+}
+.projects {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    margin: 2% 0%;
+}
+.projects h1{
+    font-family: system-ui;
+    align-self: center;
+}
+.projects hr{
+    align-self: center;
+}
+.qute {
+    height: 44vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-flow: column;
+    background-image: url(../Images/qute-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.qute h1 {
+    color: white;
+    width: 64%;
+    text-align: center;
+    align-self: center;
+    font-family: 'Font Awesome 5 Pro';
+    text-transform: capitalize;
+    font-size: 46px;
+}
+.qute button {
+    border-radius: 10px;
+    align-self: center;
+    font-size: 22px;
+    margin: 2% 0%;
+    padding: 6px 22px;
+    background: black;
+    border: 3px solid #e20200;
+}
+.qute button a{
+    color: white;
+}
+.qute button:hover{
+    background: #e20200;
+    border:3px solid black;
+}
+.qute button:hover a{
+    color: white!important;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .slider{
+        background-image: url(../Images/bg-services-mob.jpg);
+    }
+    .slider h1 {
+        font-size: 28px;
+        width: 100%;
+        padding: 2%;
+        text-align: center;
+    }
+    .pr-tag h1 {
+        font-size: 24px;
+    }
+    .prg h2 {
+        font-size: 24px;
+        width: 100%;
+        font-family: system-ui;
+        text-align: center;
+    }
+    .prg hr{
+        display: none;
+    }
+    .prg p {
+        font-size: 18px;
+        text-align: center;
+        padding: 2%;
+    }
+    .prg .rgt {
+        margin: 10% 0% 8% 0%!important;
+    }
+    .prg .lft {
+        margin: 10% 0% 8% 0%!important;
+        border-right:none!important;
+        border-bottom:2px solid black ;
+    }
+    .lft{
+        width: 100%!important;
+        margin: 0% 0% 18% 0%;
+    }
+    .rgt{
+        width: 100%!important;
+        margin:18% 0%;
+    }
+
+    .sct1{
+        flex-wrap: wrap-reverse!important;
+    }
+    .sct1 .lft{
+        padding: 0px 26px!important;
+    }
+    .hed{
+        margin-top: 14%;
+    }
+    .hed h3 {
+        font-size: 44px;
+        text-align: center;
+    }
+    .hed small {
+        font-size: 12px;
+    }
+    .qute h1{
+        font-size: 18px;
+    }
+    .our-process-item{
+        width: 48%;
+    }
+}
+@media only screen and (max-width: 700px){
+    .our-process-item{
+        width: 100%;
+    }
+}

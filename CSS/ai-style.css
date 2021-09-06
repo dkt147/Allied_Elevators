@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.slider {
+    display: flex;
+    margin-top: 4rem;
+    background-image: url(../Images/bg-ai.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    height: 80vh;
+    justify-content: flex-end;
+    align-items: center;
+    color: #fff800;
+}
+.rgt {
+    width: 46%;
+    margin-right: 2%;
+}
+.rgt h1 {
+    font-size: 46px;
+    font-family: serif;
+    text-transform: uppercase;
+}
+.rgt p {
+    font-size: 20px;
+    width: 94%;
+    word-spacing: 1px;
+}
+.container.sct1 {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    padding: 4% 0%;
+    justify-content: space-between;
+    align-items: center;
+}
+.sct-l {
+    width: 46%;
+    float: left;
+    height: 50vh;
+}
+.sct-l img {
+    padding: .25rem;
+    background-color: #fff;
+    border: 1px solid #000000;
+    border-radius: .25rem;
+    max-width: 100%;
+}
+.sct-r {
+    width: 40%;
+    float: right;
+}
+.sct-r h1 {
+    color: #000;
+    font-size: 35px;
+    line-height: 34px;
+    font-weight: 600;
+}
+.sct-r p {
+    color: #251501;
+    font-weight: 500;
+    font-size: 16px;
+    word-spacing: 2px;
+    text-align: center;
+    margin-top: 4%;
+}
+/* sct2 */
+
+div#sct2 {
+    background-image: url(../Images/ai2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 4%;
+}
+.sct2 h3 {
+    color: white;
+    font-size: 48px;
+    background-color: #00000026;
+    text-transform: capitalize;
+    font-family: 'Font Awesome 5 Brands';
+}
+.sct2 h4 {
+    color: white;
+    font-size: 25px;
+    background-color: #00000026;
+    font-family: sans-serif;
+    margin-top: 2rem;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+.sct2 .card {
+    border: 2px #ffffff solid !important;
+    transition: 0.5s;
+    height: 92%;
+    background-color: rgb(0 0 0 / 56%) !important;
+    margin-top: 12%;
+    color: white;
+    border-radius: 12px!important;
+    word-spacing: 2px;
+    box-shadow: 11px 49px 7px -36px #0000004d;
+}
+.sct2 .card h5 {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    height: 78px;
+    font-family: ui-monospace;
+}
+.sct2 .card p {
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    word-spacing: 4px;
+    margin: 0px 12px;
+}
+.sct2 .card i {
+    background-color: #e20200;
+    border: 2px solid black;
+    color: white;
+    width: 85px;
+    height:85px;
+    line-height: 75px;
+    margin: -40px auto 0 auto;
+}
+
+.sct2 .card i:hover {
+    background-color: black;
+    color: #e20200;
+    border: 2px solid #e20200;
+}
+
+.sct2 cite {
+    color: #e20200;
+}
+
+.container.sct31 {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    padding: 4% 0% 0% 0%;
+    justify-content: space-between;
+    align-items: center;
+}
+.sct-l31 {
+    width: 46%;
+    float: left;
+    height: 50vh;
+}
+.sct-l31 img {
+    padding: .25rem;
+    background-color: #fff;
+    border: 1px solid #000000;
+    border-radius: .25rem;
+    max-width: 100%;
+}
+.sct-r31 {
+    width: 40%;
+    float: right;
+}
+.sct-r31 h1 {
+    color: #000;
+    font-size: 32px;
+    line-height: 34px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.sct-r31 p {
+    color: #251501;
+    font-weight: 500;
+    font-size: 16px;
+    word-spacing: 2px;
+    text-align: center;
+    margin-top: 4%;
+}
+.sct-r31 li {
+    list-style-type: disclosure-closed;
+    margin: 4px 0px;
+    color: black;
+}
+.container.sct32 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2% 0% 4% 0%;
+    justify-content: space-between;
+    align-items: center;
+}
+.sct-l32 {
+    width: 46%;
+    float: left;
+    height: 50vh;
+}
+.sct-l32 img {
+    padding: .25rem;
+    background-color: #fff;
+    border: 1px solid #000000;
+    border-radius: .25rem;
+    max-width: 100%;
+}
+.sct-r32 {
+    width: 40%;
+    float: right;
+}
+.sct-r32 h1 {
+    color: #000;
+    font-size: 35px;
+    line-height: 34px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.sct-r32 p {
+    color: #251501;
+    font-weight: 500;
+    font-size: 16px;
+    word-spacing: 2px;
+    text-align: center;
+    margin-top: 4%;
+}
+
+.qute {
+    height: 44vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-flow: column;
+    background-image: url(../Images/qute-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.qute h1 {
+    color: white;
+    width: 64%;
+    text-align: center;
+    align-self: center;
+    font-family: 'Font Awesome 5 Pro';
+    text-transform: capitalize;
+    font-size: 46px;
+}
+.qute button {
+    border-radius: 10px;
+    align-self: center;
+    font-size: 22px;
+    margin: 2% 0%;
+    padding: 6px 22px;
+    background: black;
+    border: 3px solid #e20200;
+}
+.qute button a{
+    color: white;
+}
+.qute button:hover{
+    background: #e20200;
+    border:3px solid black;
+}
+.qute button:hover a{
+    color: white!important;
+}
+@media only screen and (max-width: 1000px) {
+    .brd {
+        margin: 51% 0% 0% 3%;
+    }
+    .breadcrumb{
+        font-size: 8px!important;
+    }
+    .slider{
+        height: 28vh;
+    }
+    .rgt h1 {
+        font-size: 16px;
+    }
+    .rgt p {
+        font-size: 4px;
+        word-spacing: 1px;
+    }
+    .sct-l {
+        width: 100%;
+    }
+    .sct-l img {
+        height: 69%;
+        width: 94%;
+        margin: 0% 3%;
+    }
+    .sct-r {
+        width: 100%;
+    }
+    .sct-r h1 {
+        font-size: 24px;
+        padding-bottom: 14px;
+        border-bottom: 2px solid #e20200;
+        text-align: center;
+    }
+    .sct-r p {
+        font-size: 16px;
+        margin: 8% 8%;
+    }
+    .sct2 h5{
+        font-size: 36px;
+    }
+    .sct2 h4{
+        font-size: 21px;
+    }
+    .sct2 h3{
+        font-size: 38px;
+    }
+    .sct-l31 {
+        width: 100%;
+    }
+    .sct-l31 img {
+        height: 69%;
+        width: 94%;
+        margin: 0% 3%;
+    }
+    .sct-r31 {
+        width: 100%;
+    }
+    .sct-r31 h1 {
+        font-size: 32px;
+        padding-bottom: 14px;
+        margin: 0% 12%;
+        border-bottom: 2px solid #e20200;
+    }
+    .sct-r31 p {
+        font-size: 16px;
+        margin: 8% 8%;
+    }
+
+    .sct-l32 {
+        width: 100%;
+    }
+    .sct-l32 img {
+        height: 69%;
+        width: 94%;
+        margin: 0% 3%;
+    }
+    .sct-r32 {
+        width: 100%;
+    }
+    .sct-r32 h1 {
+        font-size: 32px;
+        padding-bottom: 14px;
+        margin: 0% 12%;
+        border-bottom: 2px solid #e20200;
+    }
+    .sct-r32 p {
+        font-size: 16px;
+        margin: 8% 8%;
+    }
+    .qute h1{
+        font-size: 18px;
+    }
+}
